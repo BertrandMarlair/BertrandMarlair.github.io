@@ -17,28 +17,28 @@
             "technicalDescription": "Platform continuously developed over 1.5 years. All information is accessible in real time and is therefore used by all of BeCode (600 people)."
         },
         "Talent": {
-            "intro": "This platform and there to connect learners and external recruiters.",
+            "intro": "This platform is used to connect learners and externals recruiters.",
             "about": "Any company can register on the platform, configure its profile to add different information (number of employees, photos, job offers,...) and create contacts with Becode juniors. Once in anonymous contact, the company can ask for more access to juniors and only if it accepts it, it has the information. Once in anonymous contact, the company can ask for more access to juniors and only if it accepts it, it has the information.",
             "technicalDescription": "This platform has been developed in direct relationship with MyBeCode since all information flows from one side to the other. The two applications are on the same server and run on the same database."
         },
         "Rexel": {
             "intro": "This platform allows you to configure charging stations for electric cars.",
             "about": "There are a large number of parameters to take into account when buying an electric car, including the type of terminals to be installed. To simplify the choice of installers, this application allows you to enter all the important parameters and to target the terminal(s) compatible with the customer's current installation",
-            "technicalDescription": "Redux takes a very important place. Since all parameters are linked to each other, it is therefore essential to synchronize the configuration in all components. The whole awning is therefore also synchronized with the local storage room so that it can keep its configuration and not lose all its work with improper handling."
+            "technicalDescription": "Redux takes a very important place. Since all parameters are linked to each other, it is essential to synchronize the configuration in all components. The whole awning is therefore also synchronized with the local storage room so that it can keep its configuration and not lose all its work with improper handling."
         },
         "Musics": {
-            "intro": "This platform is there to make sure that a group can have the same music at the same time.",
+            "intro": "This platform allows a group of people to listen the same music at the same time.",
             "about": "Each person can join the group and everyone can choose the sound that is being listened to in the same way as some nightclubs with headphones. It is also possible to add sounds that come from SoundCloud. You can connect to it and create your own playlists",
             "technicalDescription": "The application is developed with React and Meteor to ensure a real-time database"
         },
         "Isaac": {
             "intro": "It's a small multiplayer game based on an existing game.",
-            "about": "This little game was developed in NodeJs and SocketIO, it was developed as part of node es6 learning. Several things still need to be improved significantly, create a database to save the different profiles. We should also push the display and make sure that we can play with more people at the same time. Allow to make different game show,...",
-            "technicalDescription": "The game was code with NodeJS ES6 and socket io for the server and the client is developed with Canva"
+            "about": "This little game was developed in NodeJs and SocketIO, it was developed as part of node es6 learning. Several things still need to be improved significantly, create a database to save the different profiles. We should also improve the interface and make sure that we can play with more people at the same time. Allow to make different game show,...",
+            "technicalDescription": "The game was code with NodeJS ES6 and socket io for the server. The client is developed with Canva"
         },
         "CryptoSpace": {
             "intro": "A small application that allows you to imagine the different links in the blockchain environment",
-            "about": "Some companies including some employees who work in the blockchain environment and who are graphically represented with their different links between them or with other companies.",
+            "about": "It's about displaying companies and employees who work in the blockchain environment and who are graphically represented with their different links between them or with other companies.",
             "technicalDescription": "The information is in a JS file and a recursive loop allows you to create all your relationships"
         }
     },
@@ -51,16 +51,16 @@
             "0": {
                 "title": "Full-stack developer",
                 "city": "Brussels",
-                "description": "I have developed two complete platforms within the company. I set up the system alone with the interface, the different servers and database."
+                "description": "I have developed two complete platforms. I set up the system alone with the interface, the different servers and database."
             },
             "1": {
                 "title": "Trainer in computer development",
                 "city": "Brussels",
-                "description": "My job was to train 25 juniors in 7 months in web development from scratch. Our objective was to provide them with an optimized learning environment. In 7 months, they are able to develop different platforms with the front, back, database... We also trained them with a lot of soft-skills and see how to behave in a company,..."
+                "description": "My job was to train 25 juniors in 7 months in web development from scratch. Our objective was to provide them with an optimized learning environment. In 7 months, they are able to develop different platforms with the front, back, database... We also trained them with a lot of soft-skills and train them how to behave in a company,..."
             },
             "2": {
                 "title": "Self-training",
-                "description": "Self-taught for several years, I then have to use, javascript, react, meteor, mongo,... But above all, I learned to learn and search"
+                "description": "Self-taught for several years, I learned to use, javascript, react, meteor, mongo, graphql and many more. But above all, I learned to learn and search"
             },
             "3": {
                 "title": "IFAPME",
@@ -86,7 +86,7 @@
     },
     "contact": {
         "title": "Get in touch",
-        "description": "If you want to contact me, talk to me about a collaboration project or just say hello, send an email to <b>marlair.bertrand@gmail.com</b> and let's talk about it!",
+        "description": "If you want to contact me, talk to me about a collaboration project or just say hello, send me an email to <b>marlair.bertrand@gmail.com</b> and let's talk about it!",
         "subTitle": "My social networks"
     },
     "header": {
