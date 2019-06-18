@@ -2,12 +2,18 @@ const ContactPageStyle = {
     title: {
         color: 'white',
         fontSize: 60,
+        '@media (max-width: 600px)': {
+            fontSize: 35,
+        },
     },
     subTitle: {
         color: '#fff',
         fontSize: '1.2rem',
         lineHeigth: 25,
-        marginTop: 50
+        marginTop: 50,
+        '@media (max-width: 600px)': {
+            fontSize: '1rem',
+        },
     },
     titleSecond: {
         marginTop: 20,
@@ -37,6 +43,10 @@ const ContactPageStyle = {
     },
     socialButtons: {
         display: 'flex',
+        '@media (max-width: 600px)': {
+            flexDirection: 'column',
+            alignItems: 'center',
+        },
     },
     sticky: {
         height: '100vh',
@@ -67,6 +77,10 @@ const ContactPageStyle = {
             width: 122,
             height: 170,
         },
+        '@media (max-width: 500px)': {
+            width: 100,
+            height: 140,
+        },
     },
     fiolle2: {
         width: 170,
@@ -80,6 +94,10 @@ const ContactPageStyle = {
         '@media (max-width: 1200px)': {
             width: 150,
             height: 270,
+        },
+        '@media (max-width: 500px)': {
+            width: 120,
+            height: 230,
         },
     },
     fiolle3: {

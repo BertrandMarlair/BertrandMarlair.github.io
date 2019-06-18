@@ -2,6 +2,9 @@ const HomePageStyle = {
     title: {
         color: 'white',
         fontSize: 45,
+        '@media (max-width: 600px)': {
+            fontSize: 35,
+        },
     },
     subTitle: {
         color: '#fff',
@@ -59,6 +62,10 @@ const HomePageStyle = {
             width: 122,
             height: 170,
         },
+        '@media (max-width: 500px)': {
+            width: 100,
+            height: 140,
+        },
     },
     fiolle2: {
         width: 170,
@@ -72,6 +79,10 @@ const HomePageStyle = {
         '@media (max-width: 1200px)': {
             width: 150,
             height: 270,
+        },
+        '@media (max-width: 500px)': {
+            width: 120,
+            height: 230,
         },
     },
     fiolle3: {

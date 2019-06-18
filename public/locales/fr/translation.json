@@ -1,50 +1,50 @@
 {
     "homapage": {
-        "title": "Hey, Je m'appel Bertrand Marlair",
+        "title": "Hey, Je m'appelle Bertrand Marlair",
         "subtitle": "je suis front-end developer.",
         "button": "Venez voir mon travail"
     },
     "project": {
-        "title": "web développeur portfolio",
+        "title": "Mes réalisation",
         "description": "Depuis les composants Web et le serveur en temps réel avec React.JS, Mongo, Meteor, et plus encore, découvrez mes derniers projets de portefeuille de développement web.",
         "buttonShow": "Tout montrer",
-        "about": "A propos de ce projet",
+        "about": "À propos de ce projet",
         "technical": "Fiche technique",
         "resources": "Ressources",
         "MyBeCode": {
             "intro": "MyBeCode est un intranet permettant de gérer tout le côté administratif de la gestion des apprenants Becode",
-            "about": "L'idée de ce projet était de simplifier nos tâches administratives en automatisant un maximum de choses via une plateforme où nos juniors pouvaient remplir par eux-mêmes leurs absences, événement, badge ou autres. La plate-forme a été développée en continu et les fonctionnalités se sont rajoutées au fur et à mesure.",
+            "about": "L'idée de ce projet était de simplifier nos tâches administratives en automatisant un maximum de choses via une plateforme où nos juniors pouvaient remplir par eux-mêmes leurs absences, événements, badges ou autres. La plate-forme a été développée en continu et les fonctionnalités se sont rajoutées au fur et à mesure.",
             "technicalDescription": "Plateforme développée en continu pendant 1.5 ans. Toutes les informations sont accessibles en temps réel et sont donc utilisées par l'ensemble de BeCode (600 personnes)."
         },
         "Talent": {
-            "intro": "Cette plateforme et là pour mettre en relation les apprenants et des recruteurs externe.",
-            "about": "N'importe quelle entreprise peu s'inscrire à la plateforme, configurer son profil pour y rajouter différentes informations (nombre d'employés, photos, offres d'emploi, ...) et créer des contacts avec des juniors de Becode. Une fois en contact anonyme, l'entreprise peu demandée d'avoir plus d'accès aux juniors et seulement s'il l'accepte, il a les informations. Une fois en contact anonyme, l'entreprise peu demandée d'avoir plus d'accès aux juniors et seulement s'il l'accepte, il a les informations. ",
-            "technicalDescription": "Cette plateforme à été développé en relation direct avec MyBeCode vu que toutes les informations transitent d'un côté comme de l'autre. Les deux applications sont sur le même serveur et fonctionnent avec la même base de données."
+            "intro": "Cette plateforme permet de mettre en relation les apprenants et des recruteurs externes.",
+            "about": "N'importe quelle entreprise peut s'inscrire à la plateforme, configurer son profil pour y rajouter différentes informations (nombre d'employés, photos, offres d'emploi, ...) et créer des contacts avec des juniors de Becode. Une fois en contact anonyme, l'entreprise peut demander d'avoir plus d'accès aux juniors et seulement s'il l'accepte, il a les informations. Une fois en contact anonyme, l'entreprise peut demander d'avoir plus d'accès aux juniors et seulement s'il l'accepte, il a les informations. ",
+            "technicalDescription": "Cette plateforme a été développée en relation direct avec MyBeCode vu que toutes les informations transitent d'un côté comme de l'autre. Les deux applications sont sur le même serveur et fonctionnent avec la même base de données."
         },
         "Rexel": {
             "intro": "Cette plateforme permet de configurer des bornes de recharges pour voiture électrique.",
-            "about": "Il y a un grand nombre de paramètres à prendre en compte lors de l'achat d'une voiture électrique notamment le type de bornes à installer. Pour simplifier le choix des installateurs, cette application permet du coup de rentrer tout les paramètre important et de pouvoir cibler la ou les bornes compatible avec l'installation actuelle du client.",
-            "technicalDescription": "Redux prend une place très importante. Vu que tout les paramètre sont lier les uns au autre, il est donc primordial de synchroniser le paramétrage dans tout les composants. Tout le store set donc aussi synchroniser avec le local storage pour pouvoir garder sa configuration et ne pas perdre tout son travail avec une mauvaise manipulation."
+            "about": "Il y a un grand nombre de paramètres à prendre en compte lors de l'achat d'une voiture électrique notamment le type de bornes à installer. Pour simplifier le choix des installateurs, cette application permet de rentrer tous les paramètres importants et de pouvoir cibler la ou les bornes compatibles avec l'installation actuelle du client.",
+            "technicalDescription": "Redux prend une place très importante. Vu que tout les paramètre sont liés les uns aux autres, il est donc primordial de synchroniser le paramétrage dans tous les composants. Tout le store set également aussi synchronisé avec le local storage pour pouvoir garder sa configuration et ne pas perdre tout son travail à cause d'une mauvaise manipulation."
         },
         "Musics": {
-            "intro": "Cette plateforme est là pour faire en sorte qu'un groupe puisse avoir la même musique en même temps.",
-            "about": "Chaque personne peut rejoindre le groupe et tout le monde peu choisir le son qui est en train d'être écouté un peu de la même manière que certaine boite de nuit avec des casques. Il est possible aussi de rajouter des sons qui proviennent de SoundCloud. On peu d'y connecter et créer ses propres playlists",
+            "intro": "Cette plateforme est là pour faire en sorte qu'un groupe de personnes puisse écouter la même musique en même temps.",
+            "about": "Chaque personne peut rejoindre le groupe et tout le monde peut choisir le son qui est en train d'être écouté un peu de la même manière que certaines boites de nuit avec des casques. Il est possible aussi de rajouter des sons qui proviennent de SoundCloud. On peut d'y connecter et créer ses propres playlists",
             "technicalDescription": "L'application est développée avec React et Meteor pour permettre de faire en sorte d'avoir une base de données en temps réel."
         },
         "Isaac": {
             "intro": "C'est un petit jeu multijoueur basé sur un jeu existant.",
-            "about": "Ce petit jeu à été développé en NodeJs et SocketIO, ça été développer dans le cadre d'apprentissage de node es6. Plusieurs choses sont encore à améliorer nettement, créer une base de données pour sauvegarder les différents profils. Il faudrait aussi pousser l'affichage et faire en sorte de pouvoir jouer avec plus de monde en même temps. Permettre de faire différent salon de jeu,...",
-            "technicalDescription": "Le jeu à été code avec NodeJS ES6 et socket io pour le serveur et le client est developpé avec Canva"
+            "about": "Ce petit jeu à été développé en NodeJs et SocketIO dans le cadre d'apprentissage de node es6. Plusieurs choses sont encore à améliorer : créer une base de données pour sauvegarder les différents profils. Il faudrait aussi amériorer l'interface graphique et faire en sorte de pouvoir jouer avec plus de monde en même temps. Permettre de faire différents salons de jeu,...",
+            "technicalDescription": "Le jeu a été codé avec NodeJS ES6 et Socket IO pour le serveur. Le client est developpé avec Canva"
         },
         "CryptoSpace": {
             "intro": "Petite application qui permet de se représenter les différentes liaisons dans le milieux de la blockchain",
-            "about": "Certaines entreprises dont quelques employés qui travaillent dans le milieu de la blockchain et qui sont représenter graphiquement avec leurs différentes liaisons entre eux ou avec d'autres entreprises.",
+            "about": "Visualisation de certaines entreprises dont les employés travaillent dans le milieu de la blockchain et sont représenter graphiquement avec leurs différentes liaisons entre eux ou avec d'autres entreprises.",
             "technicalDescription": "Les informations sont dans un fichier JS et une boucle récursive permet de créer toutes ses relations"
         }
     },
     "about": {
         "title": "À propos de moi",
-        "description1": "Je suis un jeune front-end développeur de 21 ans. Je travaille depuis deux ans dans le web. Dans le cadre de mon travail, j'ai été amené à former des juniors au développement web, mais aussi à développer différentes plateformes interne ou externe, en groupe ou en solo.",
+        "description1": "Je suis un jeune front-end développeur de 21 ans. Je travaille depuis deux ans dans le web. Dans le cadre de mon travail, j'ai été amené à former des juniors au développement web, mais aussi à développer différentes plateformes internes ou externes, en groupe ou en solo.",
         "description2": "Ce que je préfère faire, c'est créer des applications les plus interactives possibles avec un maximum de dynamisme et de temps réel.",
         "favorite": "Stacks favorites",
         "timeline": {
@@ -60,7 +60,7 @@
             },
             "2": {
                 "title": "Auto-formation",
-                "description": "Autodidacte depuis plusieurs années, j'ai après à utiliser, javascript, react, meteor, mongo,... Mais j'ai surtout appris à apprendre et à chercher."
+                "description": "Autodidacte depuis plusieurs années, j'ai appris à utiliser, javascript, react, meteor, mongo,... Mais j'ai surtout appris à apprendre et à chercher."
             },
             "3": {
                 "title": "IFAPME",

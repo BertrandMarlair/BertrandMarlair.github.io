@@ -84,9 +84,9 @@ const AboutPage = props => {
                                 <div className={classes.paragraph}>
                                     {t('about.timeline.3.description')}
                                     <ul>
-                                        <li>{t('about.timeline.3.sub1')}</li>
-                                        <li>{t('about.timeline.3.sub2')}</li>
-                                        <li>{t('about.timeline.3.sub3')}</li>
+                                        <li className={classes.li}>{t('about.timeline.3.sub1')}</li>
+                                        <li className={classes.li}>{t('about.timeline.3.sub2')}</li>
+                                        <li className={classes.li}>{t('about.timeline.3.sub3')}</li>
                                     </ul>
                                 </div>
                             </VerticalTimelineElement>
@@ -101,7 +101,7 @@ const AboutPage = props => {
                                 <div className={classes.paragraph}>
                                     {t('about.timeline.4.description')}
                                     <ul>
-                                        <li>{t('about.timeline.4.sub1')}</li>
+                                        <li className={classes.li}>{t('about.timeline.4.sub1')}</li>
                                     </ul>
                                 </div>
                             </VerticalTimelineElement>
@@ -116,7 +116,7 @@ const AboutPage = props => {
                                 <div className={classes.paragraph}>
                                     {t('about.timeline.5.description')}
                                     <ul>
-                                        <li>{t('about.timeline.5.sub1')}</li>
+                                        <li className={classes.li}>{t('about.timeline.5.sub1')}</li>
                                     </ul>
                                 </div>
                             </VerticalTimelineElement>

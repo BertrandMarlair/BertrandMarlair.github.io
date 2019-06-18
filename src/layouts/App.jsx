@@ -13,6 +13,7 @@ import posed, { PoseGroup } from 'react-pose';
 import { useSelector, useDispatch } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import LoaderScreen from 'component/LoaderScreen/LoaderScreen'
 
 const App = () => {
   return (
@@ -26,12 +27,7 @@ const App = () => {
 
 export default App;
 
-const Loader = () => (
-  <div className="App">
-    <img src={'https://i.pinimg.com/originals/f9/56/88/f95688dd1ac02f459fe016d141a67bd2.gif'} className="App-logo" alt="logo" />
-    <div>loading...</div>
-  </div>
-);
+const Loader = () => <div/>
 
 const RouteContainer = posed.div({
   enter: { opacity: 1, delay: 0, beforeChildren: true },
@@ -42,10 +38,17 @@ const Container = props => {
   const menu = useSelector(state => state.menuConfig)
 
   const [ open, setOpen ] = useState(false)
+  const [ loaderOpen, setLoaderOpen ] = useState(true)
 
   const dispatch = useDispatch()
 
   const toggleMenu = payload => dispatch({ type: 'TOOGLE_MENU', payload })
+
+  useEffect(() => {
+    setTimeout(()=>{
+      setLoaderOpen(false)
+    }, 1500)
+  }, [])
 
   useEffect(() => {
     if (menu.open){
@@ -80,6 +83,7 @@ const Container = props => {
               <NavLink onClick={() => handleCloseMenu(false)} className={classes.link} to={'/contact'}>{t('header.contact')}</NavLink>
             </div>
           }
+          {loaderOpen && <LoaderScreen/>}
           <div id="app">
             <Header/>
             <Route

@@ -30,7 +30,7 @@ export const data = [
         css: 'url(/images/logo/Talent.png)',
         background: '/images/logo/Talent.png',
         height: 500,
-        title: 'Talent',
+        title: 'Talents',
         stacks: ['react', 'meteor', 'mongo', 'firebase'],
         intro: "project.Talent.intro",
         about: "project.Talent.about",

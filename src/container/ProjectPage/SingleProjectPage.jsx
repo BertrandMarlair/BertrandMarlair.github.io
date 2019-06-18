@@ -1,27 +1,16 @@
 import React, { useEffect, useState, Fragment } from 'react'
 import { withStyles } from '@material-ui/core';
-import ProjectPageStyle from './ProjectPageStyle'
-import { data } from './data'
-import posed from 'react-pose';
-import Spinner from 'component/Loader/Spinner'
-import ZoomImg from 'component/ZoomImg/ZoomImg'
-import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft'
-import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight'
+import ProjectPageStyle from './ProjectPageStyle';
+import { data } from './data';
+import Spinner from 'component/Loader/Spinner';
+import ZoomImg from 'component/ZoomImg/ZoomImg';
+import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft';
+import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
 import { useTranslation } from 'react-i18next';
 
 const ProjectPage = props => {
 
     const { classes } = props
-
-    const ListContainer = posed.ul({
-        enter: { staggerChildren: 20 },
-        exit: { staggerChildren: 5, staggerDirection: -1 }
-    });
-
-    const Item = posed.li({
-        enter: { y: 0, opacity: 1 },
-        exit: { y: 500, opacity: 0 }
-    });
 
     const [ article, setArticle ] = useState(null)
 
@@ -55,64 +44,50 @@ const ProjectPage = props => {
     }
     
     return(
-        <ListContainer>
-            {article ? 
-                <div className={classes.textContainer}>
-                    <Item>
-                        <div className={classes.headerSingle}>
-                                <KeyboardArrowLeft onClick={() => getLink(false)} className={classes.icon}/>
-                            <div className={classes.title2}>{article.title}</div>
-                            <KeyboardArrowRight onClick={() => getLink(true)} className={classes.icon}/>
+        article ? 
+            <div className={classes.textContainer}>
+                    <div className={classes.headerSingle}>
+                            <KeyboardArrowLeft onClick={() => getLink(false)} className={classes.icon}/>
+                        <div className={classes.title2}>{article.title}</div>
+                        <KeyboardArrowRight onClick={() => getLink(true)} className={classes.icon}/>
+                    </div>
+                    {article.intro &&
+                        <div className={classes.text}>
+                            {t(article.intro)}
                         </div>
-                    </Item>
-                    <Item>
-                        {article.intro &&
+                    }
+                    <div>
+                        <ZoomImg src={article.background} />
+                    </div>
+                    {article.about &&
+                        <Fragment>
+                            <div className={classes.subTitle2}>{t('project.about')}</div>
                             <div className={classes.text}>
-                                {t(article.intro)}
+                                {t(article.about)}
                             </div>
-                        }
-                    </Item>
-                    <Item>
-                        <div>
-                            <ZoomImg src={article.background} />
-                        </div>
-                    </Item>
-                    <Item>
-                        {article.about &&
-                            <Fragment>
-                                <div className={classes.subTitle2}>{t('project.about')}</div>
-                                <div className={classes.text}>
-                                    {t(article.about)}
-                                </div>
-                            </Fragment>
-                        }
-                    </Item>
-                    <Item>
-                        {article.technical &&
-                            <Fragment>
-                                <div className={classes.subTitle2}>{t('project.technical')}</div>
-                                <div className={classes.text}>
-                                    <div>{t(article.technicalDescription)}</div>
-                                    <p dangerouslySetInnerHTML={{ __html: article.technical }} />
-                                </div>
-                            </Fragment>
-                        }
-                    </Item>
-                    <Item>
-                        {article.resource &&
-                            <Fragment>
-                                <div className={classes.subTitle2}>{t('project.resources')}</div>
-                                <div className={classes.text}>
-                                    {article.resource}
-                                </div>
-                            </Fragment>
-                        }
-                    </Item>
-                </div>
-            : (
-                <Spinner />
-            )}
-        </ListContainer>
+                        </Fragment>
+                    }
+                    {article.technical &&
+                        <Fragment>
+                            <div className={classes.subTitle2}>{t('project.technical')}</div>
+                            <div className={classes.text}>
+                                <div>{t(article.technicalDescription)}</div>
+                                <p dangerouslySetInnerHTML={{ __html: article.technical }} />
+                            </div>
+                        </Fragment>
+                    }
+                    {article.resource &&
+                        <Fragment>
+                            <div className={classes.subTitle2}>{t('project.resources')}</div>
+                            <div className={classes.text}>
+                                {article.resource}
+                            </div>
+                        </Fragment>
+                    }
+            </div>
+        : (
+            <Spinner />
+        )
     )
 }
 

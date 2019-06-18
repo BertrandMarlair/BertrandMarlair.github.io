@@ -2,12 +2,18 @@ const ProjectPageStyle = {
     title: {
         color: 'white',
         fontSize: 60,
+        '@media (max-width: 600px)': {
+            fontSize: 35,
+        },
     },
     subTitle: {
         color: '#fff',
         fontSize: '1.2rem',
         lineHeigth: 25,
-        marginTop: 50
+        marginTop: 50,
+        '@media (max-width: 600px)': {
+            fontSize: '1rem',
+        },
     },
     header: {
         maxWidth: '1200px',
@@ -56,6 +62,9 @@ const ProjectPageStyle = {
     title2: {
         color: 'white',
         fontSize: 50,
+        '@media (max-width: 600px)': {
+            fontSize: 30,
+        },
     },
     icon: {
         color: 'white',

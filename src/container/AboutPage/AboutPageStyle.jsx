@@ -2,6 +2,9 @@ const AboutPageStyle = {
     title: {
         color: 'white',
         fontSize: 60,
+        '@media (max-width: 600px)': {
+            fontSize: 35,
+        },
     },
     titleSecond: {
         color: 'white',
@@ -26,8 +29,6 @@ const AboutPageStyle = {
         },
     },
     content: {
-        // marginLeft: '15vw',
-        // marginTop: '30vh',
         width: '60%',
         '@media (max-width: 1200px)': {
             width: '100%',
@@ -42,9 +43,6 @@ const AboutPageStyle = {
         '@media (max-width: 1200px)': {
             width: '100%',
         },
-        // position: 'absolute',
-        // top: 280,
-        // right: 50,
     },
     imagesStack: {
         margin: 'auto',
@@ -101,6 +99,11 @@ const AboutPageStyle = {
         '@media (min-width: 1200px)': {
             flexDirection: 'column',
         },
+    },
+    li: {
+        listStyleType: 'unset',
+        textAlign: 'unset',
+        margin: '3px 20px',
     }
 }
 
