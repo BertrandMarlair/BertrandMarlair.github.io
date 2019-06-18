@@ -5,7 +5,7 @@
         "button": "View my work"
     },
     "project": {
-        "title": "web developer portfolio",
+        "title": "My projects",
         "description": "From the Web components and the real-time server with React.JS, Mongo, Meteor, and more, discover my latest web development portfolio projects.",
         "buttonShow": "Show all",
         "about": "About this project",

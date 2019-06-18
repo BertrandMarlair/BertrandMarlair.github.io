@@ -5,7 +5,7 @@
         "button": "Venez voir mon travail"
     },
     "project": {
-        "title": "web développeur portfolio",
+        "title": "Mes réalisation",
         "description": "Depuis les composants Web et le serveur en temps réel avec React.JS, Mongo, Meteor, et plus encore, découvrez mes derniers projets de portefeuille de développement web.",
         "buttonShow": "Tout montrer",
         "about": "A propos de ce projet",
