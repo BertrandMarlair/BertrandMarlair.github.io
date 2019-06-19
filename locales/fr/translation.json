@@ -5,7 +5,7 @@
         "button": "Venez voir mon travail"
     },
     "project": {
-        "title": "Mes réalisation",
+        "title": "Mes réalisations",
         "description": "Depuis les composants Web et le serveur en temps réel avec React.JS, Mongo, Meteor, et plus encore, découvrez mes derniers projets de portefeuille de développement web.",
         "buttonShow": "Tout montrer",
         "about": "À propos de ce projet",
@@ -18,7 +18,7 @@
         },
         "Talent": {
             "intro": "Cette plateforme permet de mettre en relation les apprenants et des recruteurs externes.",
-            "about": "N'importe quelle entreprise peut s'inscrire à la plateforme, configurer son profil pour y rajouter différentes informations (nombre d'employés, photos, offres d'emploi, ...) et créer des contacts avec des juniors de Becode. Une fois en contact anonyme, l'entreprise peut demander d'avoir plus d'accès aux juniors et seulement s'il l'accepte, il a les informations. Une fois en contact anonyme, l'entreprise peut demander d'avoir plus d'accès aux juniors et seulement s'il l'accepte, il a les informations. ",
+            "about": "N'importe quelle entreprise peut s'inscrire à la plateforme, configurer son profil pour y rajouter différentes informations (nombre d'employés, photos, offres d'emploi, ...) et créer des contacts avec des juniors de Becode. Une fois en contact anonyme, l'entreprise peut demander d'avoir plus d'accès aux juniors et seulement s'il l'accepte, il a les informations. ",
             "technicalDescription": "Cette plateforme a été développée en relation direct avec MyBeCode vu que toutes les informations transitent d'un côté comme de l'autre. Les deux applications sont sur le même serveur et fonctionnent avec la même base de données."
         },
         "Rexel": {
